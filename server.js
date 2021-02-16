@@ -1,6 +1,7 @@
 //Adding in node packages needed to run this application
 const express = require('express');
 const { notes } = require('./db/db.json')
+const PORT = process.env.PORT || 3002;
 
 //instating the server
 const app = express();
@@ -14,6 +15,6 @@ app.get('/api/notes', (req, res) => {
 })
 
 //getting the server to listen
-app.listen(3002, () => {
-    console.log(`API server now on port 3002!`)
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`)
 })
