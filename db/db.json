@@ -24,6 +24,16 @@
       "title": "Test title",
       "text": "",
       "id": "4"
+    },
+    {
+      "title": "Hayley's Note",
+      "text": "Note texty text",
+      "id": "5"
+    },
+    {
+      "title": "Hayley's adding notes to",
+      "text": "I've added this note to the file.",
+      "id": "6"
     }
   ]
 }
