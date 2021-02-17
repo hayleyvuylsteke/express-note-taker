@@ -1,15 +1,16 @@
 const {createNewNote, validateNote } = require('../../lib/notes')
 const {notes} = require('../../db/db.json')
+const router = require('express').Router();
 
 //adding routes
-app.get('/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     let results = notes;
     console.log(req.query)
     res.json(results)
     //res.send('Hello!');
 })
 
-app.post('/notes', (req, res) => {
+router.post('/notes', (req, res) => {
 
     //setting new note id
     req.body.id = notes.length.toString();
@@ -30,9 +31,11 @@ app.post('/notes', (req, res) => {
 });
 
 // delete functions
-app.delete('/notes:id', function (req, res) {
+router.delete('/notes:id', function (req, res) {
     let currentNotes = JSON.parse('./db/db.json')
     let noteID = req.params.id
 
     res.send('SEND DELETE REQUEST?')
 })
+
+module.exports  = router;
