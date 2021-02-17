@@ -75,9 +75,11 @@ app.post('/api/notes', (req, res) => {
 });
 
 // delete functions
-app.delete('/api/notes:id', (req, res) => {
+app.delete('/api/notes:id', function (req, res) {
     let currentNotes = JSON.parse('./db/db.json')
     let noteID = req.params.id
+
+    res.send('SEND DELETE REQUEST?')
 })
 
 //html routes
