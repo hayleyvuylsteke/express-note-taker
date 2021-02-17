@@ -39,6 +39,16 @@
       "title": "Hayley",
       "text": "Adding Notes",
       "id": "7"
+    },
+    {
+      "title": "Hayley's testing data entry",
+      "text": "I'm testing the ability to add a note",
+      "id": "8"
+    },
+    {
+      "title": "Test 3",
+      "text": "Testing note adding",
+      "id": "9"
     }
   ]
 }
