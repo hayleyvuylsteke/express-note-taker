@@ -19,33 +19,7 @@ const app = express();
     //making the public folder static
     app.use(express.static('public'));
 
-// notes array
-let notesArray = []
 
-//createnewnote functionality
-
-function createNewNote(body, notesArray) {
-    
-    const note = body;
-    notesArray.push(note);
-
-    fs.writeFileSync(
-        (path.join(__dirname, './db/db.json')),
-        JSON.stringify({ notes: notesArray}, null, 2)
-    );
-
-    return note;
-}
-// validation functions
-function validateNote(note) {
-    if (!note.title || typeof note.name !== 'string') {
-        return false;
-    }
-    if (!note.text || typeof note.text !== 'string') {
-        return false
-    }
-    return true;
-}
 //adding routes
 app.get('/api/notes', (req, res) => {
     let results = notes;
