@@ -1,64 +1,72 @@
-{
-  "notes": [
-    {
-      "id": "0",
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "id": "1",
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "id": "3",
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Test title",
-      "text": "test text",
-      "id": "3"
-    },
-    {
-      "title": "Test title",
-      "text": "",
-      "id": "4"
-    },
-    {
-      "title": "Hayley's Note",
-      "text": "Note texty text",
-      "id": "5"
-    },
-    {
-      "title": "Hayley's adding notes to",
-      "text": "I've added this note to the file.",
-      "id": "6"
-    },
-    {
-      "title": "Hayley",
-      "text": "Adding Notes",
-      "id": "7"
-    },
-    {
-      "title": "Hayley's testing data entry",
-      "text": "I'm testing the ability to add a note",
-      "id": "8"
-    },
-    {
-      "title": "Test 3",
-      "text": "Testing note adding",
-      "id": "9"
-    },
-    {
-      "title": "Hayley",
-      "text": "Note test",
-      "id": "10"
-    },
-    {
-      "title": "Hayley",
-      "text": "Hey",
-      "id": "11"
-    }
-  ]
-}
+[
+  {
+    "id": "0",
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "id": "1",
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "id": "3",
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "Test title",
+    "text": "test text",
+    "id": "3"
+  },
+  {
+    "title": "Test title",
+    "text": "",
+    "id": "4"
+  },
+  {
+    "title": "Hayley's Note",
+    "text": "Note texty text",
+    "id": "5"
+  },
+  {
+    "title": "Hayley's adding notes to",
+    "text": "I've added this note to the file.",
+    "id": "6"
+  },
+  {
+    "title": "Hayley",
+    "text": "Adding Notes",
+    "id": "7"
+  },
+  {
+    "title": "Hayley's testing data entry",
+    "text": "I'm testing the ability to add a note",
+    "id": "8"
+  },
+  {
+    "title": "Test 3",
+    "text": "Testing note adding",
+    "id": "9"
+  },
+  {
+    "title": "Hayley",
+    "text": "Note test",
+    "id": "10"
+  },
+  {
+    "title": "Hayley",
+    "text": "Hey",
+    "id": "11"
+  },
+  {
+    "title": "Note testing",
+    "text": "Testing this note",
+    "id": "12"
+  },
+  {
+    "title": "Testing functionality",
+    "text": "Note testing functionality",
+    "id": "13"
+  }
+]
